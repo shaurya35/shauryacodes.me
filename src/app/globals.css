@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+@import url('https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.css-blurry-gradient-blue {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  width: 500px;
+  height: 500px;
+  border-radius: 0% 0% 50% 50%;
+  rotate: 90deg;
+  filter: blur(70px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(77, 91, 206, 1),
+    rgba(76, 0, 255, 0)
+  );
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.css-blurry-gradient-green {
+  position: absolute;
+  top: 15%;
+  right: 35%;
+  width: 380px;
+  height: 350px;
+  border-radius: 0% 50% 0% 50%;
+  filter: blur(95px);
+  rotate: 110deg;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(67, 217, 173, 1),
+    rgba(76, 0, 255, 0)
+  );
+  opacity: 0.5;
+  z-index: 10;
+}
+
+@media (max-width: 1024px) {
+  .css-blurry-gradient-blue {
+    position: fixed;
+    bottom: 25%;
+    right: 5%;
+    width: 300px;
+    height: 300px;
+    opacity: 0.7;
+    border-radius: 100% 50% 100% 0%;
+  }
+
+  .css-blurry-gradient-green {
+    position: fixed;
+    top: 20%;
+    right: 30%;
+    filter: blur(70px);
+    rotate: 10deg;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+    border-radius: 100% 0% 0% 0%;
+    rotate: 20deg;
+  }
+}
+
+
