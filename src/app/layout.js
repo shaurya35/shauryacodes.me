@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           rel="icon"
           href={`${
             process.env.NODE_ENV === "production" ? "/shaurya35.github.io" : ""
-          }/favicon.png`}
+          }/favicon.svg`}
         />
 
         <title>{metadata.title}</title>

@@ -2,7 +2,6 @@ import React from "react";
 import CrossIcon from "@/components/ui/CrossIcon";
 import DownIcon from "@/components/ui/DownIcon";
 import Right from "@/components/ui/Right";
-import FolderIcon from "@/components/ui/FolderIcon";
 import ProjectsPanel from "@/components/panels/ProjectsPanel";
 import Image from "next/image";
 
@@ -61,10 +60,10 @@ const page = () => {
         <div className="flex-1 overflow-y-auto p-10 flex flex-wrap justify-evenly items-start gap-8 scrollable-div">
           <ProjectsPanel
             projectNumber={1}
-            detail="Nextjs"
+            detail="Next.js, Firebase"
             image={
               <Image
-                src="/projects/stockwise.png"
+                src="/projects/hms.png"
                 alt="Stockwise project"
                 width={400}
                 height={500}
@@ -72,12 +71,12 @@ const page = () => {
               />
             }
             description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
-            liveSiteLink="https://nextjs.org/"
-            githubLink="https://github.com/gg"
+            liveSiteLink="https://github.com/shaurya35/Hospital-Management-System"
+            githubLink="https://github.com/shaurya35/Hospital-Management-System"
           />
           <ProjectsPanel
-            projectNumber={1}
-            detail="Nextjs"
+            projectNumber={2}
+            detail="React.js, Express.js"
             image={
               <Image
                 src="/projects/stockwise.png"
@@ -88,15 +87,15 @@ const page = () => {
               />
             }
             description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
-            liveSiteLink="https://nextjs.org/"
-            githubLink="https://github.com/gg"
+            liveSiteLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
+            githubLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
           />
           <ProjectsPanel
-            projectNumber={1}
-            detail="Nextjs"
+            projectNumber={3}
+            detail="React.js, Express.js"
             image={
               <Image
-                src="/projects/stockwise.png"
+                src="/projects/greenglide.png"
                 alt="Stockwise project"
                 width={400}
                 height={500}
@@ -104,15 +103,15 @@ const page = () => {
               />
             }
             description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
-            liveSiteLink="https://nextjs.org/"
-            githubLink="https://github.com/gg"
+            liveSiteLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
+            githubLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
           />
           <ProjectsPanel
-            projectNumber={1}
-            detail="Nextjs"
+            projectNumber={4}
+            detail="React.js, Tailwind CSS"
             image={
               <Image
-                src="/projects/stockwise.png"
+                src="/projects/motionarteffect.png"
                 alt="Stockwise project"
                 width={400}
                 height={500}
@@ -120,15 +119,15 @@ const page = () => {
               />
             }
             description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
-            liveSiteLink="https://nextjs.org/"
-            githubLink="https://github.com/gg"
+            liveSiteLink="https://heliverse-task-rose.vercel.app/"
+            githubLink="https://github.com/shaurya35/Heliverse-task"
           />
           <ProjectsPanel
-            projectNumber={1}
-            detail="Nextjs"
+            projectNumber={5}
+            detail="Express.js, EJS"
             image={
               <Image
-                src="/projects/stockwise.png"
+                src="/projects/yelpcamp.png"
                 alt="Stockwise project"
                 width={400}
                 height={500}
@@ -136,15 +135,15 @@ const page = () => {
               />
             }
             description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
-            liveSiteLink="https://nextjs.org/"
-            githubLink="https://github.com/gg"
+            liveSiteLink="https://yelp-camp-taqn.onrender.com/"
+            githubLink="https://github.com/shaurya35/Yelp-Camp"
           />
           <ProjectsPanel
-            projectNumber={1}
-            detail="Nextjs"
+            projectNumber={6}
+            detail="React.js"
             image={
               <Image
-                src="/projects/stockwise.png"
+                src="/projects/coffee.png"
                 alt="Stockwise project"
                 width={400}
                 height={500}
@@ -152,15 +151,15 @@ const page = () => {
               />
             }
             description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
-            liveSiteLink="https://nextjs.org/"
-            githubLink="https://github.com/gg"
+            liveSiteLink="https://coffeeinseconds.netlify.app/"
+            githubLink="https://github.com/shaurya35/OCTANET_APRIL"
           />
           <ProjectsPanel
-            projectNumber={1}
-            detail="Nextjs"
+            projectNumber={7}
+            detail="HTML, CSS"
             image={
               <Image
-                src="/projects/stockwise.png"
+                src="/projects/landingpage1.png"
                 alt="Stockwise project"
                 width={400}
                 height={500}
@@ -168,15 +167,15 @@ const page = () => {
               />
             }
             description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
-            liveSiteLink="https://nextjs.org/"
-            githubLink="https://github.com/gg"
+            liveSiteLink="https://prodigy-wd-01-sigma.vercel.app/"
+            githubLink="https://github.com/shaurya35/PRODIGY_WD_01"
           />
           <ProjectsPanel
-            projectNumber={1}
-            detail="Nextjs"
+            projectNumber={8}
+            detail="HTML, CSS"
             image={
               <Image
-                src="/projects/stockwise.png"
+                src="/projects/amazonclone.png"
                 alt="Stockwise project"
                 width={400}
                 height={500}
@@ -184,8 +183,24 @@ const page = () => {
               />
             }
             description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
-            liveSiteLink="https://nextjs.org/"
-            githubLink="https://github.com/gg"
+            liveSiteLink="https://amazonbyshaurya.netlify.app/"
+            githubLink="https://github.com/shaurya35/Amazon-Clone"
+          />
+          <ProjectsPanel
+            projectNumber={9}
+            detail="Nextjs, Firebase"
+            image={
+              <Image
+                src="/projects/calendar.png"
+                alt="Stockwise project"
+                width={400}
+                height={500}
+                className="rounded-t-2xl border-b border-white"
+              />
+            }
+            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            liveSiteLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
+            githubLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
           />
         </div>
       </div>
