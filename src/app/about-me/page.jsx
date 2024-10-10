@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 // import Image from "next/image";
 import TerminalIcon from "../../components/ui/TerminalIcon";
 import SquareUserIcon from "../../components/ui/SquareUserIcon";
@@ -11,9 +11,38 @@ const Page = () => {
   const [activePanel, setActivePanel] = useState("experience");
   const [hoveredIcon, setHoveredIcon] = useState("");
   const [hoveredPosition, setHoveredPosition] = useState(null);
+  const scrollContainerRef = useRef(null);
+
+  useEffect(() => {
+    const scrollContainer = scrollContainerRef.current;
+    
+    if (scrollContainer) {
+      const initialTimeout = setTimeout(() => {
+        scrollContainer.scrollTo({
+          left: 1000, 
+          behavior: "smooth", 
+        });
+
+        const timeoutId = setTimeout(() => {
+          scrollContainer.scrollTo({
+            left: 0, 
+            behavior: "smooth", 
+          });
+        }, 700); 
+
+        return () => clearTimeout(timeoutId); 
+      }, 300); 
+
+      return () => clearTimeout(initialTimeout); 
+    }
+  }, []);
+
 
   return (
-    <div className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex ">
+    <div
+      ref={scrollContainerRef}
+      className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex overflow-x-auto"
+    >
       <div className="border-r border-white w-[1300px] flex flex-row h-full">
         <div className="w-[64px] border-r border-white flex flex-col justify-start items-center relative">
           <div
