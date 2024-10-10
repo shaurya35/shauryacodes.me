@@ -17,56 +17,73 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
           case "h1":
             return (
               <MainDashboard
-                number={9}
-                h1="// Octanet Services Pvt. Ltd."
-                l1="- Developed and maintained web applications"
-                l2="- Collaborated with cross-functional teams"
-                l3="- Implemented responsive UI components"
-                l4="- Managed project timelines"
+                number={15}
+                h1="Octanet Services Pvt. Ltd."
+                l1="- Built 2 responsive React.js apps with 100% browser compatibility"
+                l2="- Improved UI integration and user experience"
+                l3="- Ensured clean, maintainable code"
+                l4="- Created documentation, boosting team efficiency"
+                h2="Prodigy Infotech"
+                l5="- Built 5 responsive web apps using HTML, CSS, and JavaScript"
+                l6="- Ensured compatibility across all devices"
+                l7="- Delivered 5 projects ahead of schedule"
+                l8="- Earned a letter of recommendation for outstanding performance."
               />
             );
           case "h2":
             return (
               <MainDashboard
-                number={9}
-                h1="React"
-                l1="- Next.js"
-                l2="- "
-                l3="- "
-                l4="- "
+                number={23}
+                h1="Primary Stack"
+                l1="- Next.js, TypeScript"
+                l2="- PostgreSQL, Prisma"
+                h2="Frontend"
+                l5="- Tailwind CSS, React.js"
+                l6="- HTML, CSS, JavaScript"
+                h3="Backend"
+                l9="- Node.js, Express.js"
+                l10="- Django"
+                h4="Languages"
+                l13="- Java, C++"
+                l14="- JavaScript, Bash"
               />
             );
           case "h3":
             return (
               <MainDashboard
-                number={9}
-                h1="English Speaking"
-                l1="Leadership"
-                l2="- "
-                l3="- "
-                l4="- "
+                number={15}
+                h1="Core Soft Skills"
+                l1="- Active Listening"
+                l2="- Critical Thinking"
+                l3="- Problem Solving"
+                l4="- Decision Making"
+                h2="Interpersonal Skills"
+                l5="- Teamwork"
+                l6="- Leadership Qualities"
+                l7="- Flexibility"
+                l8="- Adaptability"
               />
             );
           case "mail":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Mail"
-                l1="- example@mail.com"
-                l2="- Available for contact"
-                l3="- "
-                l4="- "
+                l1="- shauryajha35@gmail.com"
+                l2="- Active for contact"
+                l3="- Response time: 24-48 hours"
+                l4="- Preferred for professional inquiries"
               />
             );
           case "contact":
             return (
               <MainDashboard
-                number={9}
-                h1="Phone"
-                l1="- 123-456-7890"
+                number={7}
+                h1="// Phone"
+                l1="- +91-9115331677"
                 l2="- Reachable during business hours"
-                l3="- "
-                l4="- "
+                l3="- Available via WhatsApp"
+                l4="- Best time to call: 10 AM - 6 PM (IST)"
               />
             );
           default:
@@ -78,56 +95,56 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
           case "h1":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Personal Bio"
-                l1="- Short bio description"
-                l2="- More details about the individual"
-                l3="- Education background"
-                l4="- Hobbies and interests"
+                l1="- Hello, I am Shaurya Jha"
+                l2="- 3rd Year Undergraduate Student"
+                l3="- Pursuing B.Tech in Computer Science"
+                l4="- Iter, Bhubaneshwar"
               />
             );
           case "h2":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Personal Interests"
-                l1="- Reading"
-                l2="- Traveling"
-                l3="- Music"
-                l4="- "
+                l1="- Music"
+                l2="- Badminton"
+                l3="- Reading"
+                l4="- Travelling"
               />
             );
           case "h3":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Qualifications"
-                l1="- Degree in Computer Science"
+                l1="- Top Voice Linkedin"
                 l2="- Certifications in Web Development"
-                l3="- Work experience in tech"
-                l4="- "
+                l3="- 5-Star HackerRank Java"
+                l4="- Mentor at GSSoC'24"
               />
             );
           case "mail":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Mail"
-                l1="- personal@mail.com"
-                l2="- Available for personal inquiries"
-                l3="- "
-                l4="- "
+                l1="- shauryajha35@gmail.com"
+                l2="- Active for contact"
+                l3="- Response time: 24-48 hours"
+                l4="- Preferred for professional inquiries"
               />
             );
           case "contact":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Phone"
-                l1="- 987-654-3210"
-                l2="- Reachable for personal matters"
-                l3="- "
-                l4="- "
+                l1="- +91-9115331677"
+                l2="- Reachable during business hours"
+                l3="- Available via WhatsApp"
+                l4="- Best time to call: 10 AM - 6 PM (IST)"
               />
             );
           default:
@@ -139,56 +156,61 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
           case "h1":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Favorite Sports"
-                l1="- Soccer"
-                l2="- Basketball"
-                l3="- Tennis"
-                l4="- "
+                l1="- Badminton"
+                l2="- Table-Tennis"
+                l3="- Pool"
+                l4="- Cricket"
               />
             );
           case "h2":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Favorite Games"
                 l1="- Chess"
                 l2="- Video Games"
                 l3="- Puzzle Games"
-                l4="- "
+                l4="- Dune"
               />
             );
           case "h3":
             return (
               <MainDashboard
-                number={9}
+                number={15}
                 h1="Favorite Movies"
-                l1="- Inception"
-                l2="- Interstellar"
-                l3="- The Dark Knight"
-                l4="- "
+                l1="- Interstellar"
+                l2="- Martin"
+                l3="- Passengers"
+                l4="- Inception"
+                h2="Favourite Series"
+                l5="- Dark"
+                l6="- The Last of us"
+                l7="- The Mandalorian"
+                l8="- Manifest"
               />
             );
           case "mail":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Mail"
-                l1="- hobbies@mail.com"
-                l2="- Available for hobby-related inquiries"
-                l3="- "
-                l4="- "
+                l1="- shauryajha35@gmail.com"
+                l2="- Active for contact"
+                l3="- Response time: 24-48 hours"
+                l4="- Preferred for professional inquiries"
               />
             );
           case "contact":
             return (
               <MainDashboard
-                number={9}
+                number={7}
                 h1="Phone"
-                l1="- 555-123-4567"
-                l2="- Reachable for hobby discussions"
-                l3="- "
-                l4="- "
+                l1="- +91-9115331677"
+                l2="- Reachable during business hours"
+                l3="- Available via WhatsApp"
+                l4="- Best time to call: 10 AM - 6 PM (IST)"
               />
             );
           default:
@@ -213,7 +235,7 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
       case "contact":
         return "Contact";
       default:
-        return "Experience"; 
+        return "Experience";
     }
   };
 
@@ -309,7 +331,7 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
       </aside>
       <div>
         <div>
-        <Tab text={getTabText()} />
+          <Tab text={getTabText()} />
         </div>
         <div>{renderContent()}</div>
       </div>
