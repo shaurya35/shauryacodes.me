@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-// import Image from "next/image";
 import TerminalIcon from "../../components/ui/TerminalIcon";
 import SquareUserIcon from "../../components/ui/SquareUserIcon";
 import JoystickIcon from "../../components/ui/JoystickIcon";
 import ProfessionalInfo from "@/components/panels/ProfessionalInfo";
+// import Image from "next/image";
 // import pencil from "../../../public/photos/pencil.jpg";
 
 const Page = () => {
