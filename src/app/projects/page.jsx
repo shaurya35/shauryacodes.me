@@ -9,7 +9,7 @@ import Loader from "@/components/loader/Loader";
 
 import "../scrolls.css";
 
-const page = () => {
+const Page = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -227,4 +227,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
