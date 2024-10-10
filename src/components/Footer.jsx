@@ -1,8 +1,9 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Twitter from "./ui/Twitter";
 import Instagram from "./ui/Instagram";
 import Github from "./ui/Github";
+import Linkedin from "./ui/Linkedin";
 
 const Footer = () => {
   const handleTwitterRedirecting = () => {
@@ -11,6 +12,10 @@ const Footer = () => {
 
   const handleInstagramRedirecting = () => {
     window.open("https://www.instagram.com/_shaurya35/", "_blank");
+  };
+
+  const handleLinkedinRedirecting = () => {
+    window.open("https://www.linkedin.com/in/shaurya--jha/", "_blank");
   };
 
   const handleGithubRedirecting = () => {
@@ -32,11 +37,19 @@ const Footer = () => {
           </button>
         </div>
         <div
-          className="pr-6 pl-6 lg:border-white lg:border-r h-full flex items-center cursor-pointer hover:text-white-custom"
+          className="pr-6 pl-6 lg:border-white lg:border-r h-full lg:flex items-center cursor-pointer hover:text-white-custom hidden "
           onClick={handleInstagramRedirecting}
         >
           <button>
             <Instagram />
+          </button>
+        </div>
+        <div
+          className="pr-6 pl-6 lg:border-white lg:border-r h-full flex items-center cursor-pointer hover:text-white-custom"
+          onClick={handleLinkedinRedirecting}
+        >
+          <button>
+            <Linkedin />
           </button>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 const GithubCorner = () => {
   return (
     <>
-      <a href="">
+      <a href="https://github.com/shaurya35/shaurya35.github.io" target="_blank">
         <div
           className="fixed top-0 right-0 w-[80px] h-[80px] hidden lg:block"
           style={{
