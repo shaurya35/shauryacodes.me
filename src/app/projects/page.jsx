@@ -10,7 +10,7 @@ import "../scrolls.css";
 const page = () => {
   return (
     <div className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex ">
-      <div className="border-r border-white w-[391px]">
+      <div className="border-r border-white w-[391px] hidden lg:block">
         <div className="flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer">
           <div className="pl-2 flex justify-center items-center">
             <DownIcon />
@@ -51,7 +51,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full h-full flex flex-col">
-        <div className="flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer">
+        <div className="hidden lg:flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer">
           <div className="pl-4">page.tsx</div>
           <div className="pl-4 pr-2 border-r border-white h-full flex justify-center items-center">
             <CrossIcon />
@@ -70,7 +70,7 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="Mednex is an AI-powered system that streamlines hospital operations."
             liveSiteLink="https://github.com/shaurya35/Hospital-Management-System"
             githubLink="https://github.com/shaurya35/Hospital-Management-System"
           />
@@ -86,7 +86,7 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="Stockwise is a Web-app for Inventory management using demand forecasting."
             liveSiteLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
             githubLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
           />
@@ -102,13 +102,13 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="GreenGlide is an Web-app addressing Inefficiencies in Urban Waste Management."
             liveSiteLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
             githubLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
           />
           <ProjectsPanel
             projectNumber={4}
-            detail="React.js, Tailwind CSS"
+            detail="React.js, Tailwind"
             image={
               <Image
                 src="/projects/motionarteffect.png"
@@ -118,7 +118,7 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="MotionArtEffect is a replica of an existing website built with React.js"
             liveSiteLink="https://heliverse-task-rose.vercel.app/"
             githubLink="https://github.com/shaurya35/Heliverse-task"
           />
@@ -134,7 +134,7 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="Yelpcamp is a campsite finder Web-app with Search and Filtering features."
             liveSiteLink="https://yelp-camp-taqn.onrender.com/"
             githubLink="https://github.com/shaurya35/Yelp-Camp"
           />
@@ -150,7 +150,7 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="A Sleek React coffee landing page showcasing varieties and reviews."
             liveSiteLink="https://coffeeinseconds.netlify.app/"
             githubLink="https://github.com/shaurya35/OCTANET_APRIL"
           />
@@ -166,7 +166,7 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="A Responsive landing page built with HTML, CSS, and JavaScript."
             liveSiteLink="https://prodigy-wd-01-sigma.vercel.app/"
             githubLink="https://github.com/shaurya35/PRODIGY_WD_01"
           />
@@ -182,7 +182,7 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="An Amazon clone created with HTML and CSS."
             liveSiteLink="https://amazonbyshaurya.netlify.app/"
             githubLink="https://github.com/shaurya35/Amazon-Clone"
           />
@@ -198,7 +198,7 @@ const page = () => {
                 className="rounded-t-2xl border-b border-white"
               />
             }
-            description="Stockwise is a stock market app bla bla bla bla bla bla bla bla bla bla bla bla "
+            description="An Interactive calendar developed with Next.js, PostgreSQL."
             liveSiteLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
             githubLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
           />

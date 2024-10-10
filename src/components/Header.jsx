@@ -6,6 +6,7 @@ import AlignJustify from "@/components/ui/AlignJustify";
 const Header = () => {
   const router = useRouter();
   const [activeButton, setActiveButton] = useState("");
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   useEffect(() => {
     const pathname = window.location.pathname;
@@ -31,7 +32,12 @@ const Header = () => {
 
   const handleButtonClick = (path, buttonName) => {
     setActiveButton(buttonName);
+    setDropdownOpen(false);
     router.push(path);
+  };
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
   };
 
   return (
@@ -84,8 +90,59 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="lg:hidden flex justify-center items-center pr-7">
-        <AlignJustify />
+      <div className="lg:hidden flex justify-center items-center pr-7 relative">
+        <div onClick={toggleDropdown} className="cursor-pointer">
+          <AlignJustify />
+        </div>
+
+        <div
+          className={`absolute top-16 right-0 bg-black-100 text-gray-custom w-40 rounded-lg shadow-lg transition-all duration-200 ease-[cubic-bezier(0.16, 1, 0.3, 1)] transform-gpu origin-top-right text-[17px] ${
+            dropdownOpen
+              ? "scale-100 opacity-100"
+              : "scale-95 opacity-0 pointer-events-none"
+          }`}
+        >
+          <button
+            className={`block px-4 py-2 w-full text-left ${
+              activeButton === "_home"
+                ? "bg-black-400 text-white-custom"
+                : ""
+            }`}
+            onClick={() => handleButtonClick("/", "_home")}
+          >
+            _home
+          </button>
+          <button
+            className={`block px-4 py-2 w-full text-left ${
+              activeButton === "about-me"
+                ? "bg-black-400 text-white-custom"
+                : ""
+            }`}
+            onClick={() => handleButtonClick("/about-me", "about-me")}
+          >
+            _about-me
+          </button>
+          <button
+            className={`block px-4 py-2 w-full text-left ${
+              activeButton === "projects"
+                ? "bg-black-400 text-white-custom"
+                : ""
+            }`}
+            onClick={() => handleButtonClick("/projects", "projects")}
+          >
+            _projects
+          </button>
+          <button
+            className={`block px-4 py-2 w-full text-left ${
+              activeButton === "contact-me"
+                ? "bg-black-400 text-white-custom"
+                : ""
+            }`}
+            onClick={() => handleButtonClick("/contact-me", "contact-me")}
+          >
+            _contact-me
+          </button>
+        </div>
       </div>
 
       <div className="hidden lg:flex lg:border-white lg:border-l h-full items-center cursor-pointer hover:bg-black-400 hover:text-white-custom">

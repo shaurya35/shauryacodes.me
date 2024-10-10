@@ -44,7 +44,7 @@ const Page = () => {
   
 
   return (
-    <div className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex ">
+    <div className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex">
       <div className="hidden lg:block border-r border-white lg:w-[391px]"> 
         <div className="flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer">
           <div className="pl-2 flex justify-center items-center">
@@ -74,16 +74,16 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="h-full w-full">
-        <div className="flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer">
+      <div className="h-full w-full overflow-y-auto">
+        <div className="lg:flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer hidden ">
           <div className="pl-4">page.tsx</div>
           <div className="pl-4 pr-2 border-r border-white h-full flex justify-center items-center">
             <CrossIcon />
           </div>
         </div>
 
-        <div className="pl-48 pt-20">
-          <form onSubmit={handleSubmit}>
+        <div className="lg:pl-48 lg:pt-20 pt-10 flex justify-center lg:block">
+          <form onSubmit={handleSubmit} >
             <div className="pb-5">
               <div className="pb-2">_name:</div>
               <div>
