@@ -1,20 +1,23 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import CrossIcon from "@/components/ui/CrossIcon";
 import DownIcon from "@/components/ui/DownIcon";
 import MailIcon from "@/components/ui/MailIcon";
 import PhoneIcon from "@/components/ui/PhoneIcon";
 import Right from "@/components/ui/Right";
+import Loader from "@/components/loader/Loader";
 
 const Page = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+    setLoading(true); 
+
     try {
       const response = await fetch("/api/mail", {
         method: "POST",
@@ -27,7 +30,7 @@ const Page = () => {
           message,
         }),
       });
-  
+
       if (response.ok) {
         setStatus("Message sent successfully!");
         setName("");
@@ -40,12 +43,17 @@ const Page = () => {
       console.error("Error sending email:", error);
       setStatus("An error occurred. Please try again later.");
     }
+
+    setLoading(false);
+
+    setTimeout(() => {
+      setStatus("");
+    }, 3000);
   };
-  
 
   return (
     <div className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex">
-      <div className="hidden lg:block border-r border-white lg:w-[391px]"> 
+      <div className="hidden lg:block border-r border-white lg:w-[391px]">
         <div className="flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer">
           <div className="pl-2 flex justify-center items-center">
             <DownIcon />
@@ -83,7 +91,7 @@ const Page = () => {
         </div>
 
         <div className="lg:pl-48 lg:pt-20 pt-10 flex justify-center lg:block">
-          <form onSubmit={handleSubmit} >
+          <form onSubmit={handleSubmit}>
             <div className="pb-5">
               <div className="pb-2">_name:</div>
               <div>
@@ -125,12 +133,14 @@ const Page = () => {
             <button
               type="submit"
               className="bg-white-custom2 text-white-custom text-[14px] p-2 rounded-lg"
+              disabled={loading} 
             >
-              submit-message
+              {loading ? <Loader /> : "submit-message"}
             </button>
+            {status && <p className="text-white-custom mt-4">{status}</p>}
           </form>
 
-          {status && <p className="text-white-custom mt-4">{status}</p>}
+
         </div>
       </div>
     </div>
