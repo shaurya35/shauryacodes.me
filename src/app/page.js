@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import RightIcon from "../components/ui/RightIcon";
 import Typewriter from "typewriter-effect";
-import Image from "next/image";
+// import Image from "next/image";
 import { gsap } from "gsap";
 
 export default function Home() {
@@ -140,7 +140,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="gsap-right hidden lg:flex items-center justify-center relative bg-gradient-to-b from-[#237b6d] to-[rgba(67,217,173,0.13)] border border-black rounded-lg xl:h-[475px] xl:w-[530px] h-[370px] w-[420px] py-6 px-10 pointer-events-auto">
+      {/* <div className="gsap-right hidden lg:flex items-center justify-center relative bg-gradient-to-b from-[#237b6d] to-[rgba(67,217,173,0.13)] border border-black rounded-lg xl:h-[475px] xl:w-[530px] h-[370px] w-[420px] py-6 px-10 pointer-events-auto">
         <Image
           src="/icons/bolt.svg"
           alt="bolt"
@@ -184,7 +184,7 @@ export default function Home() {
             className="rounded-xl"
           />
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
