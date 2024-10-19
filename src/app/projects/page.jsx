@@ -104,7 +104,7 @@ const Page = () => {
                   />
                 }
                 description="Stockwise is a Web-app for Inventory management using demand forecasting."
-                liveSiteLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
+                liveSiteLink="https://stockwise-omega.vercel.app/"
                 githubLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
               />
               <ProjectsPanel
