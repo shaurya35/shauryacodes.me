@@ -120,7 +120,7 @@ const Page = () => {
                   />
                 }
                 description="GreenGlide is an Web-app addressing Inefficiencies in Urban Waste Management."
-                liveSiteLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
+                liveSiteLink="https://greenglide-smartwaste-management-system.vercel.app/"
                 githubLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
               />
               <ProjectsPanel
