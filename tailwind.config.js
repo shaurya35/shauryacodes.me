@@ -18,7 +18,7 @@ module.exports = {
           300: "#071511", // github outer color
           400: "#0D2031", // button hover color
           500: "#001221", // projects tab color
-          // 600: "#011221", // input text field color
+          600: "#011221", // input text field color
         },
         gray: {
           custom: "#607B96",
