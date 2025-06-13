@@ -87,7 +87,7 @@ const Page = () => {
                     className="rounded-t-2xl border-b border-white"
                   />
                 }
-                description="Mednex is an AI-powered system that streamlines hospital operations."
+                description="Brixline is a tech-enabled Construction-as-a-Service Company."
                 liveSiteLink="http://brixline.com/"
                 githubLink="https://github.com/shaurya35/brixline"
               />
@@ -103,7 +103,7 @@ const Page = () => {
                     className="rounded-t-2xl border-b border-white"
                   />
                 }
-                description="Mednex is an AI-powered system that streamlines hospital operations."
+                description="gobrix is a tech-enabled Construction-as-a-Service Company."
                 liveSiteLink="https://brixline-client-main.vercel.app/"
                 githubLink="https://github.com/shaurya35/brixline"
               />
@@ -121,7 +121,7 @@ const Page = () => {
                     className="rounded-t-2xl border-b border-white"
                   />
                 }
-                description="Mednex is an AI-powered system that streamlines hospital operations."
+                description="Campus-Connect allows students to connect & share resources."
                 liveSiteLink="https://itersocialconnect.vercel.app/"
                 githubLink="https://github.com/shaurya35/ITER-Social-Connect"
               />
