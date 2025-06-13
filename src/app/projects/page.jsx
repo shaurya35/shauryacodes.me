@@ -75,24 +75,58 @@ const Page = () => {
         ) : (
           <>
             <div className="flex-1 overflow-y-auto p-10 flex flex-wrap justify-evenly items-start gap-8 scrollable-div">
-              <ProjectsPanel
+            <ProjectsPanel
                 projectNumber={1}
-                detail="Next.js, Firebase"
+                detail="Next.js, TypeScript"
                 image={
                   <Image
-                    src="/projects/hms.png"
-                    alt="Stockwise project"
+                    src="/projects/brixline.png"
+                    alt="Brixline project"
                     width={400}
                     height={500}
                     className="rounded-t-2xl border-b border-white"
                   />
                 }
                 description="Mednex is an AI-powered system that streamlines hospital operations."
-                liveSiteLink="https://github.com/shaurya35/Hospital-Management-System"
-                githubLink="https://github.com/shaurya35/Hospital-Management-System"
+                liveSiteLink="http://brixline.com/"
+                githubLink="https://github.com/shaurya35/brixline"
               />
               <ProjectsPanel
                 projectNumber={2}
+                detail="Next.js, TypeScript"
+                image={
+                  <Image
+                    src="/projects/gobrix.png"
+                    alt="Gobrix project"
+                    width={400}
+                    height={500}
+                    className="rounded-t-2xl border-b border-white"
+                  />
+                }
+                description="Mednex is an AI-powered system that streamlines hospital operations."
+                liveSiteLink="https://brixline-client-main.vercel.app/"
+                githubLink="https://github.com/shaurya35/brixline"
+              />
+
+              {/* asdad */}
+              <ProjectsPanel
+                projectNumber={3}
+                detail="Next.js, Firebase"
+                image={
+                  <Image
+                    src="/projects/iterconnect.png"
+                    alt="Iterconnect project"
+                    width={400}
+                    height={500}
+                    className="rounded-t-2xl border-b border-white"
+                  />
+                }
+                description="Mednex is an AI-powered system that streamlines hospital operations."
+                liveSiteLink="https://itersocialconnect.vercel.app/"
+                githubLink="https://github.com/shaurya35/ITER-Social-Connect"
+              />
+              <ProjectsPanel
+                projectNumber={4}
                 detail="React.js, Express.js"
                 image={
                   <Image
@@ -108,7 +142,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
               />
               <ProjectsPanel
-                projectNumber={3}
+                projectNumber={5}
                 detail="React.js, Express.js"
                 image={
                   <Image
@@ -124,7 +158,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
               />
               <ProjectsPanel
-                projectNumber={4}
+                projectNumber={6}
                 detail="React.js, Tailwind"
                 image={
                   <Image
@@ -140,7 +174,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/Heliverse-task"
               />
               <ProjectsPanel
-                projectNumber={5}
+                projectNumber={7}
                 detail="Express.js, EJS"
                 image={
                   <Image
@@ -156,7 +190,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/Yelp-Camp"
               />
               <ProjectsPanel
-                projectNumber={6}
+                projectNumber={8}
                 detail="React.js"
                 image={
                   <Image
@@ -172,7 +206,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/OCTANET_APRIL"
               />
               <ProjectsPanel
-                projectNumber={7}
+                projectNumber={9}
                 detail="HTML, CSS"
                 image={
                   <Image
@@ -188,7 +222,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/PRODIGY_WD_01"
               />
               <ProjectsPanel
-                projectNumber={8}
+                projectNumber={10}
                 detail="HTML, CSS"
                 image={
                   <Image
@@ -204,7 +238,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/Amazon-Clone"
               />
               <ProjectsPanel
-                projectNumber={9}
+                projectNumber={11}
                 detail="Nextjs, Firebase"
                 image={
                   <Image
@@ -216,7 +250,7 @@ const Page = () => {
                   />
                 }
                 description="An Interactive calendar developed with Next.js, PostgreSQL."
-                liveSiteLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
+                // liveSiteLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
                 githubLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
               />
             </div>
