@@ -22,20 +22,27 @@ const ProjectsPanel = ({
         <div>{image}</div>
         <div className="text-[14px] px-6 py-5">
           <div className="mb-5">{description}</div>
-          <div className="text-white-custom text-[12px] flex">
-            <button
-              onClick={() => window.open(liveSiteLink, "_blank")}
-              className="bg-gray-custom3 p-2 rounded-lg"
-            >
-              live-project
-            </button>
-            <button
-              onClick={() => window.open(githubLink, "_blank")}
-              className="bg-gray-custom3 p-2 rounded-lg ml-2"
-            >
-              <ProjectsGithub />
-            </button>
-          </div>
+          
+          {(liveSiteLink || githubLink) && (
+            <div className="text-white-custom text-[12px] flex gap-2">
+              {liveSiteLink && (
+                <button
+                  onClick={() => window.open(liveSiteLink, "_blank")}
+                  className="bg-gray-custom3 p-2 rounded-lg"
+                >
+                  live-project
+                </button>
+              )}
+              {githubLink && (
+                <button
+                  onClick={() => window.open(githubLink, "_blank")}
+                  className="bg-gray-custom3 p-2 rounded-lg"
+                >
+                  <ProjectsGithub />
+                </button>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>
