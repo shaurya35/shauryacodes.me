@@ -88,7 +88,7 @@ const Page = () => {
                   />
                 }
                 description="Brixline is a tech-enabled Construction-as-a-Service Company."
-                liveSiteLink="http://brixline.com/"
+                liveSiteLink="https://brixline-dev.vercel.app/"
                 githubLink="https://github.com/shaurya35/brixline"
               />
               <ProjectsPanel
