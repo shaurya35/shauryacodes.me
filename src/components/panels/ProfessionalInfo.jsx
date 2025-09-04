@@ -18,21 +18,16 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
             return (
               <MainDashboard
                 number={15}
-                h1="Brixline – Founding Engineer"
-                l1="- Coordinated CEO–designer; built with Next.js, Tailwind, Postgres & Prisma"
-                l2="- Created 3 landing pages and fixed bugs"
-                l3="- Deployed frontend and backend servers"
-                l4="- Set up Postgres with Prisma and lead‑gen forms"
-                h2="Octanet Services Pvt. Ltd. - Educational Internship"
-                l5="- Built 2 responsive React.js apps with 100% browser compatibility"
-                l6="- Improved UI integration and user experience"
-                l7="- Ensured clean, maintainable code"
-                l8="- Created documentation, boosting team efficiency"
-                // h2="Prodigy Infotech"
-                // l5="- Built 5 responsive web apps using HTML, CSS, and JavaScript"
-                // l6="- Ensured compatibility across all devices"
-                // l7="- Delivered 5 projects ahead of schedule"
-                // l8="- Earned a letter of recommendation for outstanding performance."
+                h1="Solarpunk - Founding Engineer (From Intern)"
+                l1="- Led the windows team for electron app"
+                l2="- Revamped the UI completely"
+                l3="- Made deployment pipelines"
+                l4="- Improved app performance"
+                h2="Brixline – Founding Engineer"
+                l5="- Coordinated CEO–designer; built with Next.js, Tailwind, Postgres & Prisma"
+                l6="- Created 3 landing pages and fixed bugs"
+                l7="- Deployed frontend and backend servers"
+                l8="- Set up Postgres with Prisma and lead‑gen forms"
               />
             );
           case "h2":

@@ -87,7 +87,7 @@ const Page = () => {
                     className="rounded-t-2xl border-b border-white"
                   />
                 }
-                description="Brixline is a tech-enabled Construction-as-a-Service Company."
+                description="Brixline is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline)."
                 liveSiteLink="https://brixline-dev.vercel.app/"
                 githubLink="https://github.com/shaurya35/brixline"
               />
@@ -103,7 +103,7 @@ const Page = () => {
                     className="rounded-t-2xl border-b border-white"
                   />
                 }
-                description="gobrix is a tech-enabled Construction-as-a-Service Company."
+                description="gobrix is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline)."
                 liveSiteLink="https://brixline-client-main.vercel.app/"
                 githubLink="https://github.com/shaurya35/brixline"
               />
@@ -122,11 +122,43 @@ const Page = () => {
                   />
                 }
                 description="Campus-Connect allows students to connect & share resources."
-                liveSiteLink="https://itersocialconnect.vercel.app/"
+                liveSiteLink="http://iterconnect.live/explore"
                 githubLink="https://github.com/shaurya35/ITER-Social-Connect"
               />
               <ProjectsPanel
                 projectNumber={4}
+                detail="Next.js, Redis"
+                image={
+                  <Image
+                    src="/projects/upbot.png"
+                    alt="Upbot"
+                    width={400}
+                    height={500}
+                    className="rounded-t-2xl border-b border-white"
+                  />
+                }
+                description="A Value-first, reliable, and scalable uptime monitoring platform"
+                liveSiteLink="https://www.upbot.space/"
+                // githubLink="https://www.upbot.space/"
+              />
+              <ProjectsPanel
+                projectNumber={5}
+                detail="Next.js, Tailwind"
+                image={
+                  <Image
+                    src="/projects/xora.png"
+                    alt="Xora"
+                    width={400}
+                    height={500}
+                    className="rounded-t-2xl border-b border-white"
+                  />
+                }
+                description="A modern, responsive frontend UI project with Tailwind."
+                liveSiteLink="https://xora-saas-three.vercel.app/"
+                githubLink="https://github.com/shaurya35/xora-saas"
+              />
+              <ProjectsPanel
+                projectNumber={6}
                 detail="React.js, Express.js"
                 image={
                   <Image
@@ -138,11 +170,11 @@ const Page = () => {
                   />
                 }
                 description="Stockwise is a Web-app for Inventory management using demand forecasting."
-                liveSiteLink="https://stockwise.shauryacodes.me/"
+                liveSiteLink="https://stockwise-omega.vercel.app/"
                 githubLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
               />
               <ProjectsPanel
-                projectNumber={5}
+                projectNumber={7}
                 detail="React.js, Express.js"
                 image={
                   <Image
@@ -158,7 +190,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
               />
               <ProjectsPanel
-                projectNumber={6}
+                projectNumber={8}
                 detail="React.js, Tailwind"
                 image={
                   <Image
@@ -174,7 +206,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/Heliverse-task"
               />
               <ProjectsPanel
-                projectNumber={7}
+                projectNumber={9}
                 detail="Express.js, EJS"
                 image={
                   <Image
@@ -190,7 +222,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/Yelp-Camp"
               />
               <ProjectsPanel
-                projectNumber={8}
+                projectNumber={10}
                 detail="React.js"
                 image={
                   <Image
@@ -206,7 +238,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/OCTANET_APRIL"
               />
               <ProjectsPanel
-                projectNumber={9}
+                projectNumber={11}
                 detail="HTML, CSS"
                 image={
                   <Image
@@ -222,7 +254,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/PRODIGY_WD_01"
               />
               <ProjectsPanel
-                projectNumber={10}
+                projectNumber={12}
                 detail="HTML, CSS"
                 image={
                   <Image
@@ -238,7 +270,7 @@ const Page = () => {
                 githubLink="https://github.com/shaurya35/Amazon-Clone"
               />
               <ProjectsPanel
-                projectNumber={11}
+                projectNumber={13}
                 detail="Nextjs, Firebase"
                 image={
                   <Image
