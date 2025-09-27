@@ -24,6 +24,12 @@ const Header = () => {
       case "/contact-me":
         setActiveButton("contact-me");
         break;
+      case "/blogs":
+        setActiveButton("blogs");
+        break;
+      case "/github":
+        setActiveButton("github");
+        break;
       default:
         setActiveButton("_home");
         break;
@@ -46,6 +52,7 @@ const Header = () => {
         <div
           className="lg:pr-48 pl-6 lg:border-white lg:border-r h-full flex items-center cursor-pointer hover:bg-black-400 hover:text-white-custom"
           onClick={() => handleButtonClick("/", "_home")}
+          data-logo
         >
           <button className={`w-full h-full`}>shaurya-jha</button>
         </div>
@@ -88,6 +95,20 @@ const Header = () => {
             _projects
           </button>
         </div>
+
+        <div className="hidden lg:flex lg:border-white lg:border-r h-full items-center cursor-pointer hover:bg-black-400 hover:text-white-custom">
+          <button
+            className={`w-full h-full px-6 hover:text-white ${
+              activeButton === "blogs"
+                ? "border-b-2 border-yellow-exclusive text-white-custom"
+                : ""
+            }`}
+            onClick={() => handleButtonClick("/blogs", "blogs")}
+          >
+            _blogs
+          </button>
+        </div>
+
       </div>
 
       <div className="lg:hidden flex justify-center items-center pr-7 relative">
@@ -131,6 +152,26 @@ const Header = () => {
             onClick={() => handleButtonClick("/projects", "projects")}
           >
             _projects
+          </button>
+          <button
+            className={`block px-4 py-2 w-full text-left ${
+              activeButton === "blogs"
+                ? "bg-black-400 text-white-custom"
+                : ""
+            }`}
+            onClick={() => handleButtonClick("/blogs", "blogs")}
+          >
+            _blogs
+          </button>
+          <button
+            className={`block px-4 py-2 w-full text-left ${
+              activeButton === "github"
+                ? "bg-black-400 text-white-custom"
+                : ""
+            }`}
+            onClick={() => handleButtonClick("/github", "github")}
+          >
+            _github
           </button>
           <button
             className={`block px-4 py-2 w-full text-left ${

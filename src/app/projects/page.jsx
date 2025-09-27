@@ -5,7 +5,8 @@ import DownIcon from "@/components/ui/DownIcon";
 import Right from "@/components/ui/Right";
 import ProjectsPanel from "@/components/panels/ProjectsPanel";
 import Image from "next/image";
-import Loader from "@/components/loader/Loader";
+import ComponentLoader from "@/components/ui/ComponentLoader";
+import { projectsData } from "@/data/projectsData";
 
 import "../scrolls.css";
 
@@ -68,226 +69,37 @@ const Page = () => {
             <CrossIcon />
           </div>
         </div>
-        {loading ? (
-          <div className="w-full h-full flex items-center justify-center">
-            <Loader />
-          </div>
-        ) : (
-          <>
             <div className="flex-1 overflow-y-auto p-10 flex flex-wrap justify-evenly items-start gap-8 scrollable-div">
-            <ProjectsPanel
-                projectNumber={1}
-                detail="Next.js, TypeScript"
-                image={
-                  <Image
-                    src="/projects/brixline.png"
-                    alt="Brixline project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
+              {loading ? (
+                <ComponentLoader 
+                  loading={loading} 
+                  type="terminal" 
+                  message="Loading Projects..." 
+                  size="large"
+                  className="w-full"
+                />
+              ) : (
+                projectsData.map((project, index) => (
+                  <ProjectsPanel
+                    key={project.id}
+                    projectNumber={index + 1}
+                    detail={project.technologies}
+                    image={
+                      <Image
+                        src={project.image}
+                        alt={`${project.title} project`}
+                        width={400}
+                        height={500}
+                        className="rounded-t-2xl border-b border-white"
+                      />
+                    }
+                    description={project.description}
+                    liveSiteLink={project.liveSiteLink}
+                    githubLink={project.githubLink}
                   />
-                }
-                description="Brixline is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline)."
-                liveSiteLink="https://brixline-dev.vercel.app/"
-                githubLink="https://github.com/shaurya35/brixline"
-              />
-              <ProjectsPanel
-                projectNumber={2}
-                detail="Next.js, TypeScript"
-                image={
-                  <Image
-                    src="/projects/gobrix.png"
-                    alt="Gobrix project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="gobrix is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline)."
-                liveSiteLink="https://brixline-client-main.vercel.app/"
-                githubLink="https://github.com/shaurya35/brixline"
-              />
-
-              {/* asdad */}
-              <ProjectsPanel
-                projectNumber={3}
-                detail="Next.js, Firebase"
-                image={
-                  <Image
-                    src="/projects/iterconnect.png"
-                    alt="Iterconnect project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="Campus-Connect allows students to connect & share resources."
-                liveSiteLink="http://iterconnect.live/explore"
-                githubLink="https://github.com/shaurya35/ITER-Social-Connect"
-              />
-              <ProjectsPanel
-                projectNumber={4}
-                detail="Next.js, Redis"
-                image={
-                  <Image
-                    src="/projects/upbot.png"
-                    alt="Upbot"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="A Value-first, reliable, and scalable uptime monitoring platform"
-                liveSiteLink="https://www.upbot.space/"
-                // githubLink="https://www.upbot.space/"
-              />
-              <ProjectsPanel
-                projectNumber={5}
-                detail="Next.js, Tailwind"
-                image={
-                  <Image
-                    src="/projects/xora.png"
-                    alt="Xora"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="A modern, responsive frontend UI project with Tailwind."
-                liveSiteLink="https://xora-saas-three.vercel.app/"
-                githubLink="https://github.com/shaurya35/xora-saas"
-              />
-              <ProjectsPanel
-                projectNumber={6}
-                detail="React.js, Express.js"
-                image={
-                  <Image
-                    src="/projects/stockwise.png"
-                    alt="Stockwise project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="Stockwise is a Web-app for Inventory management using demand forecasting."
-                liveSiteLink="https://stockwise-omega.vercel.app/"
-                githubLink="https://github.com/shaurya35/Stockwise-Inventory-Manager"
-              />
-              <ProjectsPanel
-                projectNumber={7}
-                detail="React.js, Express.js"
-                image={
-                  <Image
-                    src="/projects/greenglide.png"
-                    alt="Stockwise project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="GreenGlide is an Web-app addressing Inefficiencies in Urban Waste Management."
-                liveSiteLink="https://greenglide-smartwaste-management-system.vercel.app/"
-                githubLink="https://github.com/shaurya35/GreenGlide-SmartWaste-Management-System"
-              />
-              <ProjectsPanel
-                projectNumber={8}
-                detail="React.js, Tailwind"
-                image={
-                  <Image
-                    src="/projects/motionarteffect.png"
-                    alt="Stockwise project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="MotionArtEffect is a replica of an existing website built with React.js"
-                liveSiteLink="https://heliverse-task-rose.vercel.app/"
-                githubLink="https://github.com/shaurya35/Heliverse-task"
-              />
-              <ProjectsPanel
-                projectNumber={9}
-                detail="Express.js, EJS"
-                image={
-                  <Image
-                    src="/projects/yelpcamp.png"
-                    alt="Stockwise project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="Yelpcamp is a campsite finder Web-app with Search and Filtering features."
-                liveSiteLink="https://yelp-camp-taqn.onrender.com/"
-                githubLink="https://github.com/shaurya35/Yelp-Camp"
-              />
-              <ProjectsPanel
-                projectNumber={10}
-                detail="React.js"
-                image={
-                  <Image
-                    src="/projects/coffee.png"
-                    alt="Stockwise project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="A Sleek React coffee landing page showcasing varieties and reviews."
-                liveSiteLink="https://coffeeinseconds.netlify.app/"
-                githubLink="https://github.com/shaurya35/OCTANET_APRIL"
-              />
-              <ProjectsPanel
-                projectNumber={11}
-                detail="HTML, CSS"
-                image={
-                  <Image
-                    src="/projects/landingpage1.png"
-                    alt="Stockwise project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="A Responsive landing page built with HTML, CSS, and JavaScript."
-                liveSiteLink="https://prodigy-wd-01-sigma.vercel.app/"
-                githubLink="https://github.com/shaurya35/PRODIGY_WD_01"
-              />
-              <ProjectsPanel
-                projectNumber={12}
-                detail="HTML, CSS"
-                image={
-                  <Image
-                    src="/projects/amazonclone.png"
-                    alt="Stockwise project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="An Amazon clone created with HTML and CSS."
-                liveSiteLink="https://amazonbyshaurya.netlify.app/"
-                githubLink="https://github.com/shaurya35/Amazon-Clone"
-              />
-              <ProjectsPanel
-                projectNumber={13}
-                detail="Nextjs, Firebase"
-                image={
-                  <Image
-                    src="/projects/calendar.png"
-                    alt="Stockwise project"
-                    width={400}
-                    height={500}
-                    className="rounded-t-2xl border-b border-white"
-                  />
-                }
-                description="An Interactive calendar developed with Next.js, PostgreSQL."
-                // liveSiteLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
-                githubLink="https://github.com/shaurya35/Interactive-Nextjs-Calendar"
-              />
+                ))
+              )}
             </div>
-          </>
-        )}
       </div>
     </div>
   );
