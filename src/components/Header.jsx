@@ -165,16 +165,6 @@ const Header = () => {
           </button>
           <button
             className={`block px-4 py-2 w-full text-left ${
-              activeButton === "github"
-                ? "bg-black-400 text-white-custom"
-                : ""
-            }`}
-            onClick={() => handleButtonClick("/github", "github")}
-          >
-            _github
-          </button>
-          <button
-            className={`block px-4 py-2 w-full text-left ${
               activeButton === "contact-me"
                 ? "bg-black-400 text-white-custom"
                 : ""
