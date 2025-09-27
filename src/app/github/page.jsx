@@ -6,8 +6,8 @@ const GitHubRedirect = () => {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace("https://github.com/shaurya35/")
-  }, []);
+    router.replace("https://github.com/shaurya35/");
+  }, [router]);
 
   return (
     <div className="h-screen flex items-center justify-center bg-black text-white">
