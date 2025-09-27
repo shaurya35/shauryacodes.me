@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import GithubCorner from "../components/GithubCorner";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           <div className="bg-black-200 m-[15px] lg:m-[30px] rounded-lg border border-white flex flex-col w-[calc(100%-30px)] lg:w-[calc(100%-60px)] h-[calc(100%-30px)] lg:h-[calc(100%-60px)]">
             <GithubCorner />
             <Header />
+            <Analytics/>
             {children}
             <Footer />
           </div>
