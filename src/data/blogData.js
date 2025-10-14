@@ -1,6 +1,42 @@
 export const blogPosts = [
   {
     id: 1,
+    title: "Solo building a product can feel overwhelming. How do you even begin? Start small and be deliberate.",
+    excerpt: "Solo building a product can feel overwhelming. Start small and be deliberate.",
+    author: "Shaurya Jha",
+    date: "2025-10-14",
+    readTime: "2 min read",
+    category: "Projects",
+    featured: true,
+    published: true,
+    twitterLink: "https://x.com/_shaurya35/status/1977820301405942062"
+  },
+  {
+    id: 2,
+    title: "I have 46k lines of code in my last SaaS, but does that really matter?",
+    excerpt: "I have 46k LOC in my last SaaS, but does that really matter?",
+    author: "Shaurya Jha",
+    date: "2025-10-13",
+    readTime: "2 min read",
+    category: "Projects",
+    featured: true,
+    published: true,
+    twitterLink: "https://x.com/_shaurya35/status/1977609982351999330"
+  },
+  {
+    id: 3,
+    title: "How to Find Million-Dollar Business Ideas (Using This Overlooked Hack)",
+    excerpt: "Most people believe great business ideas come from inspiration. But the truth?",
+    author: "Shaurya Jha",
+    date: "2025-10-11",
+    readTime: "3 min read",
+    category: "Business",
+    featured: true,
+    published: true,
+    twitterLink: "https://x.com/_shaurya35/status/1976360077729857807"
+  },
+  {
+    id: 4,
     title: "Experience of getting selected for $100k offers",
     excerpt: "Experience of getting selected for $100k offers",
     author: "Shaurya Jha",
@@ -12,7 +48,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1969099306264076354"
   },
   {
-    id: 2,
+    id: 5,
     title: "One page portfolio that actually lands interviews",
     excerpt: "One page portfolio that actually lands interviews",
     author: "Shaurya Jha",
@@ -24,7 +60,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1957155847337111642"
   },
   {
-    id: 3,
+    id: 6,
     title: "Build products, not projects!",
     excerpt: "Stop building portfolio projects and start building real products that solve actual problems for users.",
     author: "Shaurya Jha",
@@ -36,7 +72,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1956532086669521179"
   },
   {
-    id: 4,
+    id: 7,
     title: "Does consistency matters?",
     excerpt: "Consistency is the key to long-term success. Small daily actions compound into massive results over time.",
     author: "Shaurya Jha",
@@ -48,31 +84,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1956524020494450855"
   },
   {
-    id: 5,
-    title: "How to use github students developer pack to level up your game",
-    excerpt: "Unlock free tools worth thousands of dollars as a student. Complete guide to maximizing GitHub Student Developer Pack benefits.",
-    author: "Shaurya Jha",
-    date: "2024-05-05",
-    readTime: "6 min read",
-    category: "Resources",
-    featured: true,
-    published: true,
-    twitterLink: "https://x.com/_shaurya35/status/1955281944196907090"
-  },
-  {
-    id: 6,
-    title: "How I managed to get 3 remote interviews per month, here's an overview",
-    excerpt: "The exact system I used to land 3+ remote interviews every month. From cold outreach to interview prep strategies.",
-    author: "Shaurya Jha",
-    date: "2024-05-03",
-    readTime: "5 min read",
-    category: "Career",
-    featured: true,
-    published: true,
-    twitterLink: "https://x.com/_shaurya35/status/1954923983209701825"
-  },
-  {
-    id: 7,
+    id: 8,
     title: "Top 3 learnings this year from building, shipping, and 1,000 commits on GitHub",
     excerpt: "After 1,000+ commits and shipping multiple products, here are the 3 game-changing lessons that transformed my approach.",
     author: "Shaurya Jha",
@@ -84,7 +96,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1954664584356524407"
   },
   {
-    id: 8,
+    id: 9,
     title: "Building a million-dollar business sound daunting? One Micro-SaaS founder earns $400k/year flipping small software companies. Small can be mighty!",
     excerpt: "Small software companies can be incredibly profitable. One founder makes $400k yearly by flipping micro-SaaS businesses.",
     author: "Shaurya Jha",
@@ -96,7 +108,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1952690264096579971"
   },
   {
-    id: 9,
+    id: 10,
     title: "How do I grow while working 30 hours/week at my startup? Here's an overview",
     excerpt: "How to maximize learning and growth while working part-time at a startup without burning out.",
     author: "Shaurya Jha",
@@ -108,7 +120,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1952060823771165021"
   },
   {
-    id: 10,
+    id: 11,
     title: "Pov: how do I even start if everything is paid!",
     excerpt: "Struggling to start because everything costs money? Here are free alternatives that actually work for building your first product.",
     author: "Shaurya Jha",
@@ -120,7 +132,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1951259842947195392"
   },
   {
-    id: 11,
+    id: 12,
     title: "Experience from my last few interviews, what changed",
     excerpt: "Interview processes are evolving fast. Here's what changed in recent interviews and how you can adapt to stay ahead.",
     author: "Shaurya Jha",
@@ -132,7 +144,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1947401047271739552"
   },
   {
-    id: 12,
+    id: 13,
     title: "How facebook got its first 100 million users",
     excerpt: "The growth tactics Facebook used to reach 100M users. Learn the strategies that actually work for user acquisition.",
     author: "Shaurya Jha",
@@ -144,7 +156,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1946830738587889806"
   },
   {
-    id: 13,
+    id: 14,
     title: "What actually makes a dev stand out in 2025",
     excerpt: "The skills and qualities that will differentiate developers in 2025. Focus on these to stay ahead of the competition.",
     author: "Shaurya Jha",
@@ -156,7 +168,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1946320170646999387"
   },
   {
-    id: 14,
+    id: 15,
     title: "Making Products > Making Projects",
     excerpt: "Stop building projects and start building products that solve real problems. Here's why this mindset shift changes everything.",
     author: "Shaurya Jha",
@@ -168,7 +180,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1946315272882692364"
   },
   {
-    id: 15,
+    id: 16,
     title: "I'm building Zentora: a student productivity tool",
     excerpt: "Building a productivity tool specifically for students. Here's what I learned about solving real problems for a specific audience.",
     author: "Shaurya Jha",
@@ -180,7 +192,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1941145030749831630"
   },
   {
-    id: 16,
+    id: 17,
     title: "I recently launched a SaaS for my college, here's what I learnt",
     excerpt: "From idea to launch: The real challenges, unexpected wins, and lessons learned from building a SaaS for my college community.",
     author: "Shaurya Jha",
@@ -192,7 +204,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1941023372961583118"
   },
   {
-    id: 17,
+    id: 18,
     title: "My first startup job: what went right, what went wrong, and what I learned",
     excerpt: "The brutal truth about startup life: What I wish I knew before joining, the mistakes I made, and the lessons that shaped my career.",
     author: "Shaurya Jha",
@@ -204,7 +216,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1940551064115413185"
   },
   {
-    id: 18,
+    id: 19,
     title: "Taking up the no AI challenge for my next SaaS, here's why?",
     excerpt: "Why I'm building my next SaaS without AI tools. The surprising benefits of going back to basics and building from scratch.",
     author: "Shaurya Jha",
@@ -216,7 +228,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1938611005812289744"
   },
   {
-    id: 19,
+    id: 20,
     title: "The startup idea you should choose",
     excerpt: "How to pick the right startup idea based on market needs and your skills. The framework that helps you avoid common mistakes.",
     author: "Shaurya Jha",
@@ -228,7 +240,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1938239461302669363"
   },
   {
-    id: 20,
+    id: 21,
     title: "How to stay consistent when motivation dies",
     excerpt: "Motivation is temporary. Here's the system I use to stay consistent even when I don't feel like doing anything.",
     author: "Shaurya Jha",
@@ -240,7 +252,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1938163161992921390"
   },
   {
-    id: 21,
+    id: 22,
     title: "How to lead a team even if you're not confident",
     excerpt: "You don't need a title to lead. Here's how to build leadership skills and confidence when managing teams and projects.",
     author: "Shaurya Jha",
@@ -252,7 +264,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1937226693636149575"
   },
   {
-    id: 22,
+    id: 23,
     title: "Free tools and resources for new founders",
     excerpt: "Starting with zero budget? Here's a comprehensive list of free tools and resources to build, collaborate, market, and grow your product.",
     author: "Shaurya Jha",
@@ -264,7 +276,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1934838625239265397"
   },
   {
-    id: 23,
+    id: 24,
     title: "Getting real professional experience as a fresher",
     excerpt: "Freshers often lack hands-on skills that industry wants. Here's how to get real professional experience and avoid rejections.",
     author: "Shaurya Jha",
@@ -276,7 +288,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1921950277122294041"
   },
   {
-    id: 24,
+    id: 25,
     title: "Cursor is free for students, but many still fail basic coding tests",
     excerpt: "Powerful tools don't guarantee success. Here's why many developers still fail basic coding tests and how to actually improve.",
     author: "Shaurya Jha",
@@ -288,7 +300,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1920344661316809062"
   },
   {
-    id: 25,
+    id: 26,
     title: "DeepSeek & Privacy Concerns",
     excerpt: "Using DeepSeek AI? Here's what you need to know about privacy implications and how to protect your data.",
     author: "Shaurya Jha",
@@ -300,7 +312,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1885404138541850902"
   },
   {
-    id: 26,
+    id: 27,
     title: "US & China are leading the LLM race, but where's India?",
     excerpt: "While US and China dominate the LLM race, where does India stand? Here's the current state and future prospects.",
     author: "Shaurya Jha",
@@ -312,7 +324,7 @@ export const blogPosts = [
     twitterLink: "https://x.com/_shaurya35/status/1884154425851404464"
   },
   {
-    id: 27,
+    id: 28,
     title: "Why is DSA so important in FAANG interviews when it's rarely used in real work?",
     excerpt: "The disconnect between FAANG interviews and real work. Why DSA matters in interviews but not in actual development.",
     author: "Shaurya Jha",
