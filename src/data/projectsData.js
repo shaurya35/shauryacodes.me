@@ -1,6 +1,17 @@
 export const projectsData = [
   {
     id: 1,
+    title: "Philips GreenHeart",
+    description: "Monitor your heart health and track your active lifestyle.",
+    technologies: "React, JavaScript",
+    liveSiteLink: "https://www.heartprint.in/greenheartprogram/",
+    githubLink: null,
+    image: "/projects/philipsgreenheart.png",
+    featured: true,
+    published: true
+  },
+  {
+    id: 2,
     title: "Brixline",
     description: "Brixline is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
     technologies: "Next.js, TypeScript",
@@ -11,7 +22,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 2,
+    id: 3,
     title: "Gobrix",
     description: "Gobrix is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
     technologies: "Next.js, TypeScript",
@@ -22,7 +33,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 3,
+    id: 4,
     title: "Iterconnect",
     description: "Campus-Connect allows students to connect & share resources.",
     technologies: "Next.js, Firebase",
@@ -33,7 +44,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 4,
+    id: 5,
     title: "Upbot",
     description: "A Value-first, reliable, and scalable uptime monitoring platform",
     technologies: "Next.js, Redis",
@@ -44,7 +55,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 5,
+    id: 6,
     title: "Web Wallet",
     description: "A minimal, secure web-based crypto wallet, generate a seed phrase and derivation paths",
     technologies: "Solana Web3.js, Ethers.js",
@@ -55,7 +66,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 6,
+    id: 7,
     title: "Xora",
     description: "A modern, responsive frontend UI project with Tailwind.",
     technologies: "Next.js, Tailwind",
@@ -66,7 +77,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 7,
+    id: 8,
     title: "Stockwise",
     description: "Stockwise is a Web-app for Inventory management using demand forecasting.",
     technologies: "React.js, Express.js",
@@ -77,7 +88,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 8,
+    id: 9,
     title: "GreenGlide",
     description: "GreenGlide is an Web-app addressing Inefficiencies in Urban Waste Management.",
     technologies: "React.js, Express.js",
@@ -88,7 +99,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 9,
+    id: 10,
     title: "MotionArtEffect",
     description: "MotionArtEffect is a replica of an existing website built with React.js",
     technologies: "React.js, Tailwind",
@@ -99,7 +110,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 10,
+    id: 11,
     title: "Yelpcamp",
     description: "Yelpcamp is a campsite finder Web-app with Search and Filtering features.",
     technologies: "Express.js, EJS",
@@ -110,7 +121,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 11,
+    id: 12,
     title: "Coffee Landing Page",
     description: "A Sleek React coffee landing page showcasing varieties and reviews.",
     technologies: "React.js",
@@ -121,7 +132,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 12,
+    id: 13,
     title: "Landing Page",
     description: "A Responsive landing page built with HTML, CSS, and JavaScript.",
     technologies: "HTML, CSS",
@@ -132,7 +143,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 13,
+    id: 14,
     title: "Amazon Clone",
     description: "An Amazon clone created with HTML and CSS.",
     technologies: "HTML, CSS",
@@ -143,7 +154,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 14,
+    id: 15,
     title: "Interactive Calendar",
     description: "An Interactive calendar developed with Next.js, PostgreSQL.",
     technologies: "Nextjs, Firebase",
