@@ -2,8 +2,8 @@ export const projectsData = [
   {
     id: 1,
     title: "Philips GreenHeart",
-    description: "Monitor your heart health and track your active lifestyle.",
-    technologies: "React, JavaScript",
+    description: "Philips Greenheart monitors your heart health and tracks your active lifestyle.",
+    technologies: "React, TypeScript",
     liveSiteLink: "https://www.heartprint.in/greenheartprogram/",
     githubLink: null,
     image: "/projects/philipsgreenheart.png",
