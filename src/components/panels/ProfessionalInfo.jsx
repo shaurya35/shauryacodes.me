@@ -17,17 +17,23 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
           case "h1":
             return (
               <MainDashboard
-                number={15}
-                h1="Solarpunk - Founding Engineer (From Intern)"
-                l1="- Led the windows team for electron app"
-                l2="- Revamped the UI completely"
-                l3="- Made deployment pipelines"
-                l4="- Improved app performance"
-                h2="Brixline – Founding Engineer"
-                l5="- Coordinated CEO–designer; built with Next.js, Tailwind, Postgres & Prisma"
-                l6="- Created 3 landing pages and fixed bugs"
-                l7="- Deployed frontend and backend servers"
-                l8="- Set up Postgres with Prisma and lead‑gen forms"
+                number={32}
+                h1="Dhwani – Founder"
+                l1="- Built the platform end-to-end: web app, database, and a voice-AI agent that screens blue-collar candidates over phone."
+                l2="- Engineered multilingual screening (Hindi, Hinglish, regional languages) delivering ranked shortlists with audio clips; no app needed for candidates."
+                h2="Ownpath – Forward Deployed Engineer"
+                l5="- Led engineering for two Philips healthcare platforms: CI/CD, releases, security/compliance, 86%+ test coverage, <3% duplication (SonarQube)."
+                l6="- Built an AI agent that generates full presentation decks from text with brand-aware rendering, interactive editing, and PPTX/PDF export."
+                h3="Solarpunk – Founding Engineer"
+                l9="- Led the windows team for electron app"
+                l10="- Revamped the UI completely"
+                l11="- Made deployment pipelines"
+                l12="- Improved app performance"
+                h4="Brixline – Founding Engineer"
+                l13="- Coordinated CEO–designer; built with Next.js, Tailwind, Postgres & Prisma"
+                l14="- Created 3 landing pages and fixed bugs"
+                l15="- Deployed frontend and backend servers"
+                l16="- Set up Postgres with Prisma and lead‑gen forms"
               />
             );
           case "h2":
