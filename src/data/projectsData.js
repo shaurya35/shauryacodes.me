@@ -35,7 +35,7 @@ export const projectsData = [
   {
     id: 4,
     title: "Web Wallet",
-    description: "A minimal, secure web-based crypto wallet, generate a seed phrase and derivation paths",
+    description: "A minimal crypto wallet to generate seed phrases and derivation paths.",
     technologies: "Solana Web3.js, Ethers.js",
     liveSiteLink: "https://webwallet.shauryacodes.me/",
     githubLink: "https://github.com/shaurya35/solana-web-wallet",
