@@ -1,6 +1,5 @@
-export const projectsData = [
+const projects = [
   {
-    id: 1,
     title: "Dhwani",
     description: "Conversational Agents for Blue-Collar Recruitment (@Dhwanilabs).",
     technologies: "Python, Next.js, TypeScript",
@@ -11,7 +10,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 2,
     title: "Upbot",
     description: "A Value-first, reliable, and scalable uptime monitoring platform",
     technologies: "Next.js, Redis",
@@ -22,7 +20,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 3,
     title: "Iterconnect",
     description: "Campus-Connect allows students to connect & share resources.",
     technologies: "Next.js, Firebase",
@@ -33,7 +30,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 4,
     title: "Web Wallet",
     description: "A minimal crypto wallet to generate seed phrases and derivation paths.",
     technologies: "Solana Web3.js, Ethers.js",
@@ -44,7 +40,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 5,
     title: "Rust Password Manager",
     description: "CLI password manager built in Rust with Actix-web and Docker.",
     technologies: "Rust, Actix-web, Docker",
@@ -55,7 +50,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 6,
     title: "Philips GreenHeart",
     description: "Philips Greenheart monitors your heart health (Ex-@Ownpath).",
     technologies: "React, TypeScript",
@@ -66,7 +60,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 7,
     title: "Brixline",
     description: "Brixline is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
     technologies: "Next.js, TypeScript",
@@ -77,7 +70,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 8,
     title: "Gobrix",
     description: "Gobrix is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
     technologies: "Next.js, TypeScript",
@@ -88,7 +80,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 9,
     title: "Xora",
     description: "A modern, responsive frontend UI project with Tailwind.",
     technologies: "Next.js, Tailwind",
@@ -99,7 +90,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 10,
     title: "Stockwise",
     description: "Stockwise is a Web-app for Inventory management using demand forecasting.",
     technologies: "React.js, Express.js",
@@ -110,7 +100,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 11,
     title: "GreenGlide",
     description: "GreenGlide is an Web-app addressing Inefficiencies in Urban Waste Management.",
     technologies: "React.js, Express.js",
@@ -121,7 +110,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 12,
     title: "MotionArtEffect",
     description: "MotionArtEffect is a replica of an existing website built with React.js",
     technologies: "React.js, Tailwind",
@@ -132,7 +120,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 13,
     title: "Yelpcamp",
     description: "Yelpcamp is a campsite finder Web-app with Search and Filtering features.",
     technologies: "Express.js, EJS",
@@ -143,7 +130,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 14,
     title: "E-Learning Platform",
     description: "E-learning platform with course management and ML recommendations.",
     technologies: "Next.js, Express.js, Python",
@@ -154,7 +140,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 15,
     title: "DPIN Uptime",
     description: "Uptime monitoring with API, hub, and validator microservices.",
     technologies: "Next.js, TypeScript, Node.js",
@@ -165,7 +150,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 16,
     title: "Exness",
     description: "Trading platform with auth, trade management, and a poller service.",
     technologies: "Next.js, TypeScript, Prisma",
@@ -176,7 +160,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 17,
     title: "Coffee Landing Page",
     description: "A Sleek React coffee landing page showcasing varieties and reviews.",
     technologies: "React.js",
@@ -187,7 +170,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 18,
     title: "Landing Page",
     description: "A Responsive landing page built with HTML, CSS, and JavaScript.",
     technologies: "HTML, CSS",
@@ -198,7 +180,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 19,
     title: "Amazon Clone",
     description: "An Amazon clone created with HTML and CSS.",
     technologies: "HTML, CSS",
@@ -209,7 +190,6 @@ export const projectsData = [
     published: true
   },
   {
-    id: 20,
     title: "Interactive Calendar",
     description: "An Interactive calendar developed with Next.js, PostgreSQL.",
     technologies: "Nextjs, Firebase",
@@ -220,6 +200,11 @@ export const projectsData = [
     published: true
   }
 ];
+
+export const projectsData = projects.map((project, index) => ({
+  id: index + 1,
+  ...project,
+}));
 
 export const featuredProjects = projectsData.filter(project => project.featured);
 export const recentProjects = projectsData.slice(0, 6);
