@@ -4,6 +4,7 @@ import TerminalIcon from "../../components/ui/TerminalIcon";
 import SquareUserIcon from "../../components/ui/SquareUserIcon";
 import JoystickIcon from "../../components/ui/JoystickIcon";
 import ProfessionalInfo from "@/components/panels/ProfessionalInfo";
+import "../scrolls.css";
 // import Image from "next/image";
 // import pencil from "../../../public/photos/pencil.jpg";
 
@@ -42,7 +43,7 @@ const Page = () => {
   return (
     <div
       ref={scrollContainerRef}
-      className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex overflow-x-auto"
+      className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex overflow-x-auto scrollable-div"
     >
       <div className="border-r border-white w-[1300px] flex flex-row h-full">
         <div className="w-[64px] border-r border-white flex flex-col justify-start items-center relative">

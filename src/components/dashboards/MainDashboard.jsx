@@ -37,7 +37,7 @@ const MainDashboard = ({
   return (
     <div className="px-12 pt-7 flex w-[975px] text-[16px] font-fira-code">
       <div>{items}</div>
-      <div className="pl-11 h-80">
+      <div className="pl-11">
 
         <div>{h1}</div>
         <br /> 
