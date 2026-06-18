@@ -1,50 +1,17 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Philips GreenHeart",
-    description: "Philips Greenheart monitors your heart health and tracks your active lifestyle.",
-    technologies: "React, TypeScript",
-    liveSiteLink: "https://www.heartprint.in/greenheartprogram/",
+    title: "Dhwani",
+    description: "Conversational Agents for Blue-Collar Recruitment (@Dhwanilabs).",
+    technologies: "Python, Next.js, TypeScript",
+    liveSiteLink: "https://dhwanilabs.com/",
     githubLink: null,
-    image: "/projects/philipsgreenheart.png",
+    image: "/projects/dhwani.png",
     featured: true,
     published: true
   },
   {
     id: 2,
-    title: "Brixline",
-    description: "Brixline is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
-    technologies: "Next.js, TypeScript",
-    liveSiteLink: "https://brixline-dev.vercel.app/",
-    githubLink: "https://github.com/shaurya35/brixline",
-    image: "/projects/brixline.png",
-    featured: true,
-    published: true
-  },
-  {
-    id: 3,
-    title: "Gobrix",
-    description: "Gobrix is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
-    technologies: "Next.js, TypeScript",
-    liveSiteLink: "https://brixline-client-main.vercel.app/",
-    githubLink: "https://github.com/shaurya35/brixline",
-    image: "/projects/gobrix.png",
-    featured: true,
-    published: true
-  },
-  {
-    id: 4,
-    title: "Iterconnect",
-    description: "Campus-Connect allows students to connect & share resources.",
-    technologies: "Next.js, Firebase",
-    liveSiteLink: "http://iterconnect.live/explore",
-    githubLink: "https://github.com/shaurya35/ITER-Social-Connect",
-    image: "/projects/iterconnect.png",
-    featured: true,
-    published: true
-  },
-  {
-    id: 5,
     title: "Upbot",
     description: "A Value-first, reliable, and scalable uptime monitoring platform",
     technologies: "Next.js, Redis",
@@ -55,7 +22,18 @@ export const projectsData = [
     published: true
   },
   {
-    id: 6,
+    id: 3,
+    title: "Iterconnect",
+    description: "Campus-Connect allows students to connect & share resources.",
+    technologies: "Next.js, Firebase",
+    liveSiteLink: "http://iterconnect.live/explore",
+    githubLink: "https://github.com/shaurya35/ITER-Social-Connect",
+    image: "/projects/iterconnect.png",
+    featured: true,
+    published: true
+  },
+  {
+    id: 4,
     title: "Web Wallet",
     description: "A minimal, secure web-based crypto wallet, generate a seed phrase and derivation paths",
     technologies: "Solana Web3.js, Ethers.js",
@@ -66,7 +44,40 @@ export const projectsData = [
     published: true
   },
   {
+    id: 5,
+    title: "Philips GreenHeart",
+    description: "Philips Greenheart monitors your heart health (Ex-@Ownpath).",
+    technologies: "React, TypeScript",
+    liveSiteLink: "https://www.heartprint.in/greenheartprogram/",
+    githubLink: null,
+    image: "/projects/philipsgreenheart.png",
+    featured: true,
+    published: true
+  },
+  {
+    id: 6,
+    title: "Brixline",
+    description: "Brixline is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
+    technologies: "Next.js, TypeScript",
+    liveSiteLink: "https://brixline-dev.vercel.app/",
+    githubLink: "https://github.com/shaurya35/brixline",
+    image: "/projects/brixline.png",
+    featured: true,
+    published: true
+  },
+  {
     id: 7,
+    title: "Gobrix",
+    description: "Gobrix is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
+    technologies: "Next.js, TypeScript",
+    liveSiteLink: "https://brixline-client-main.vercel.app/",
+    githubLink: "https://github.com/shaurya35/brixline",
+    image: "/projects/gobrix.png",
+    featured: true,
+    published: true
+  },
+  {
+    id: 8,
     title: "Xora",
     description: "A modern, responsive frontend UI project with Tailwind.",
     technologies: "Next.js, Tailwind",
@@ -77,7 +88,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 8,
+    id: 9,
     title: "Stockwise",
     description: "Stockwise is a Web-app for Inventory management using demand forecasting.",
     technologies: "React.js, Express.js",
@@ -88,7 +99,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 9,
+    id: 10,
     title: "GreenGlide",
     description: "GreenGlide is an Web-app addressing Inefficiencies in Urban Waste Management.",
     technologies: "React.js, Express.js",
@@ -99,7 +110,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 10,
+    id: 11,
     title: "MotionArtEffect",
     description: "MotionArtEffect is a replica of an existing website built with React.js",
     technologies: "React.js, Tailwind",
@@ -110,7 +121,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 11,
+    id: 12,
     title: "Yelpcamp",
     description: "Yelpcamp is a campsite finder Web-app with Search and Filtering features.",
     technologies: "Express.js, EJS",
@@ -121,7 +132,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 12,
+    id: 13,
     title: "Coffee Landing Page",
     description: "A Sleek React coffee landing page showcasing varieties and reviews.",
     technologies: "React.js",
@@ -132,7 +143,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 13,
+    id: 14,
     title: "Landing Page",
     description: "A Responsive landing page built with HTML, CSS, and JavaScript.",
     technologies: "HTML, CSS",
@@ -143,7 +154,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 14,
+    id: 15,
     title: "Amazon Clone",
     description: "An Amazon clone created with HTML and CSS.",
     technologies: "HTML, CSS",
@@ -154,7 +165,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 15,
+    id: 16,
     title: "Interactive Calendar",
     description: "An Interactive calendar developed with Next.js, PostgreSQL.",
     technologies: "Nextjs, Firebase",
