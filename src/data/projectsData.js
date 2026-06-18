@@ -133,6 +133,50 @@ export const projectsData = [
   },
   {
     id: 13,
+    title: "E-Learning Platform",
+    description: "E-learning platform with course management and ML recommendations.",
+    technologies: "Next.js, Express.js, Python",
+    liveSiteLink: null,
+    githubLink: "https://github.com/shaurya35/E-Learning-Platform",
+    image: "/projects/placeholder.png",
+    featured: false,
+    published: true
+  },
+  {
+    id: 14,
+    title: "Rust Password Manager",
+    description: "CLI password manager built in Rust with Actix-web and Docker.",
+    technologies: "Rust, Actix-web, Docker",
+    liveSiteLink: null,
+    githubLink: "https://github.com/shaurya35/Rust-PM-be",
+    image: "/projects/placeholder.png",
+    featured: false,
+    published: true
+  },
+  {
+    id: 15,
+    title: "DPIN Uptime",
+    description: "Uptime monitoring with API, hub, and validator microservices.",
+    technologies: "Next.js, TypeScript, Node.js",
+    liveSiteLink: null,
+    githubLink: "https://github.com/shaurya35/dpin-uptime",
+    image: "/projects/placeholder.png",
+    featured: false,
+    published: true
+  },
+  {
+    id: 16,
+    title: "Exness",
+    description: "Trading platform with auth, trade management, and a poller service.",
+    technologies: "Next.js, TypeScript, Prisma",
+    liveSiteLink: null,
+    githubLink: "https://github.com/shaurya35/exness",
+    image: "/projects/placeholder.png",
+    featured: false,
+    published: true
+  },
+  {
+    id: 17,
     title: "Coffee Landing Page",
     description: "A Sleek React coffee landing page showcasing varieties and reviews.",
     technologies: "React.js",
@@ -143,7 +187,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 14,
+    id: 18,
     title: "Landing Page",
     description: "A Responsive landing page built with HTML, CSS, and JavaScript.",
     technologies: "HTML, CSS",
@@ -154,7 +198,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 15,
+    id: 19,
     title: "Amazon Clone",
     description: "An Amazon clone created with HTML and CSS.",
     technologies: "HTML, CSS",
@@ -165,7 +209,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 16,
+    id: 20,
     title: "Interactive Calendar",
     description: "An Interactive calendar developed with Next.js, PostgreSQL.",
     technologies: "Nextjs, Firebase",
