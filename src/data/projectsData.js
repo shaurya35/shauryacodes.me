@@ -45,6 +45,17 @@ export const projectsData = [
   },
   {
     id: 5,
+    title: "Rust Password Manager",
+    description: "CLI password manager built in Rust with Actix-web and Docker.",
+    technologies: "Rust, Actix-web, Docker",
+    liveSiteLink: null,
+    githubLink: "https://github.com/shaurya35/Rust-PM-be",
+    image: "/projects/placeholder.png",
+    featured: false,
+    published: true
+  },
+  {
+    id: 6,
     title: "Philips GreenHeart",
     description: "Philips Greenheart monitors your heart health (Ex-@Ownpath).",
     technologies: "React, TypeScript",
@@ -55,7 +66,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 6,
+    id: 7,
     title: "Brixline",
     description: "Brixline is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
     technologies: "Next.js, TypeScript",
@@ -66,7 +77,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 7,
+    id: 8,
     title: "Gobrix",
     description: "Gobrix is a tech-enabled Construction-as-a-Service Company (Ex-@Brixline).",
     technologies: "Next.js, TypeScript",
@@ -77,7 +88,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 8,
+    id: 9,
     title: "Xora",
     description: "A modern, responsive frontend UI project with Tailwind.",
     technologies: "Next.js, Tailwind",
@@ -88,7 +99,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 9,
+    id: 10,
     title: "Stockwise",
     description: "Stockwise is a Web-app for Inventory management using demand forecasting.",
     technologies: "React.js, Express.js",
@@ -99,7 +110,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 10,
+    id: 11,
     title: "GreenGlide",
     description: "GreenGlide is an Web-app addressing Inefficiencies in Urban Waste Management.",
     technologies: "React.js, Express.js",
@@ -110,7 +121,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 11,
+    id: 12,
     title: "MotionArtEffect",
     description: "MotionArtEffect is a replica of an existing website built with React.js",
     technologies: "React.js, Tailwind",
@@ -121,7 +132,7 @@ export const projectsData = [
     published: true
   },
   {
-    id: 12,
+    id: 13,
     title: "Yelpcamp",
     description: "Yelpcamp is a campsite finder Web-app with Search and Filtering features.",
     technologies: "Express.js, EJS",
@@ -132,23 +143,12 @@ export const projectsData = [
     published: true
   },
   {
-    id: 13,
+    id: 14,
     title: "E-Learning Platform",
     description: "E-learning platform with course management and ML recommendations.",
     technologies: "Next.js, Express.js, Python",
     liveSiteLink: null,
     githubLink: "https://github.com/shaurya35/E-Learning-Platform",
-    image: "/projects/placeholder.png",
-    featured: false,
-    published: true
-  },
-  {
-    id: 14,
-    title: "Rust Password Manager",
-    description: "CLI password manager built in Rust with Actix-web and Docker.",
-    technologies: "Rust, Actix-web, Docker",
-    liveSiteLink: null,
-    githubLink: "https://github.com/shaurya35/Rust-PM-be",
     image: "/projects/placeholder.png",
     featured: false,
     published: true
