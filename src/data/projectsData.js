@@ -40,6 +40,26 @@ const projects = [
     published: true
   },
   {
+    title: "Token Liquidity Creator",
+    description: "Solana launchpad to create, mint tokens, and add CP liquidity pools.",
+    technologies: "React, Solana, Web3.js",
+    liveSiteLink: null,
+    githubLink: "https://github.com/shaurya35/Token-Liquidity-Creator",
+    image: "/projects/placeholder.png",
+    featured: false,
+    published: true
+  },
+  {
+    title: "Ethereum Wallet Adapter",
+    description: "Ethereum wallet connector to interact with ERC-20 contracts on-chain.",
+    technologies: "TypeScript, Wagmi, Viem",
+    liveSiteLink: null,
+    githubLink: "https://github.com/shaurya35/Ethereum-wallet-adapter",
+    image: "/projects/placeholder.png",
+    featured: false,
+    published: true
+  },
+  {
     title: "Rust Password Manager",
     description: "CLI password manager built in Rust with Actix-web and Docker.",
     technologies: "Rust, Actix-web, Docker",
