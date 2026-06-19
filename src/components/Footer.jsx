@@ -1,17 +1,12 @@
 "use client";
 import React from "react";
 import Twitter from "./ui/Twitter";
-import Instagram from "./ui/Instagram";
 import Github from "./ui/Github";
 import Linkedin from "./ui/Linkedin";
 
 const Footer = () => {
   const handleTwitterRedirecting = () => {
     window.open("https://twitter.com/_shaurya35", "_blank");
-  };
-
-  const handleInstagramRedirecting = () => {
-    window.open("https://www.instagram.com/_shaurya35/", "_blank");
   };
 
   const handleLinkedinRedirecting = () => {
@@ -34,14 +29,6 @@ const Footer = () => {
         >
           <button>
             <Twitter />
-          </button>
-        </div>
-        <div
-          className="pr-6 pl-6 lg:border-white lg:border-r h-full lg:flex items-center cursor-pointer hover:text-white-custom hidden "
-          onClick={handleInstagramRedirecting}
-        >
-          <button>
-            <Instagram />
           </button>
         </div>
         <div
